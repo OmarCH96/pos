@@ -1,0 +1,131 @@
+CRITICAL - 2023-09-21 08:01:36 --> Invalid file: "configuracion/configuracion.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('configuracion/configuracion.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('configuracion/configuracion', [], true)
+ 3 APPPATH\Controllers\Configuracion.php(35): view('configuracion/configuracion')
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Configuracion->index()
+ 5 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configuracion))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-21 08:02:26 --> Invalid file: "configuracion/configuracion.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('configuracion/configuracion.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('configuracion/configuracion', [], true)
+ 3 APPPATH\Controllers\Configuracion.php(35): view('configuracion/configuracion')
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Configuracion->index()
+ 5 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configuracion))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-21 08:02:31 --> Invalid file: "configuracion/configuracion.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('configuracion/configuracion.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('configuracion/configuracion', [], true)
+ 3 APPPATH\Controllers\Configuracion.php(35): view('configuracion/configuracion')
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Configuracion->index()
+ 5 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configuracion))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-21 08:05:43 --> Undefined variable $titulo
+in APPPATH\Views\configuracion\configuracion.php on line 4.
+ 1 APPPATH\Views\configuracion\configuracion.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $titulo', 'D:\\wamp64\\www\\pos\\app\\Views\\configuracion\\configuracion.php', 4)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\wamp64\\www\\pos\\app\\Views\\configuracion\\configuracion.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('configuracion/configuracion', [], true)
+ 5 APPPATH\Controllers\Configuracion.php(35): view('configuracion/configuracion')
+ 6 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Configuracion->index()
+ 7 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configuracion))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-21 08:30:15 --> Undefined array key "valor"
+in APPPATH\Views\configuracion\configuracion.php on line 17.
+ 1 APPPATH\Views\configuracion\configuracion.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "valor"', 'D:\\wamp64\\www\\pos\\app\\Views\\configuracion\\configuracion.php', 17)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\wamp64\\www\\pos\\app\\Views\\configuracion\\configuracion.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('configuracion/configuracion', [], true)
+ 5 APPPATH\Controllers\Configuracion.php(35): view('configuracion/configuracion', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Configuracion->index()
+ 7 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configuracion))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-21 08:31:10 --> Undefined array key "valor"
+in APPPATH\Views\configuracion\configuracion.php on line 17.
+ 1 APPPATH\Views\configuracion\configuracion.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "valor"', 'D:\\wamp64\\www\\pos\\app\\Views\\configuracion\\configuracion.php', 17)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\wamp64\\www\\pos\\app\\Views\\configuracion\\configuracion.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('configuracion/configuracion', [], true)
+ 5 APPPATH\Controllers\Configuracion.php(35): view('configuracion/configuracion', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Configuracion->index()
+ 7 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configuracion))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-21 08:46:09 --> Trying to access array offset on value of type null
+in APPPATH\Views\configuracion\configuracion.php on line 17.
+ 1 APPPATH\Views\configuracion\configuracion.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\wamp64\\www\\pos\\app\\Views\\configuracion\\configuracion.php', 17)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\wamp64\\www\\pos\\app\\Views\\configuracion\\configuracion.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('configuracion/configuracion', [], true)
+ 5 APPPATH\Controllers\Configuracion.php(45): view('configuracion/configuracion', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Configuracion->index()
+ 7 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configuracion))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-21 08:47:24 --> Trying to access array offset on value of type null
+in APPPATH\Views\configuracion\configuracion.php on line 17.
+ 1 APPPATH\Views\configuracion\configuracion.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\wamp64\\www\\pos\\app\\Views\\configuracion\\configuracion.php', 17)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\wamp64\\www\\pos\\app\\Views\\configuracion\\configuracion.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('configuracion/configuracion', [], true)
+ 5 APPPATH\Controllers\Configuracion.php(45): view('configuracion/configuracion', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Configuracion->index()
+ 7 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configuracion))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-21 08:52:15 --> mysqli_sql_exception: Unknown column 'rfc' in 'where clause' in D:\wamp64\www\pos\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\wamp64\www\pos\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\wamp64\www\pos\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\wamp64\www\pos\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\wamp64\www\pos\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\wamp64\www\pos\system\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\wamp64\www\pos\system\BaseModel.php(662): CodeIgniter\Model->doFirst()
+#6 D:\wamp64\www\pos\app\Controllers\Configuracion.php(32): CodeIgniter\BaseModel->first()
+#7 D:\wamp64\www\pos\system\CodeIgniter.php(915): App\Controllers\Configuracion->index()
+#8 D:\wamp64\www\pos\system\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configuracion))
+#9 D:\wamp64\www\pos\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\wamp64\www\pos\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-09-21 08:52:15 --> Unknown column 'rfc' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `configuracion`
+WHERE `rfc` = :rfc:
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(662): CodeIgniter\Model->doFirst()
+ 4 APPPATH\Controllers\Configuracion.php(32): CodeIgniter\BaseModel->first()
+ 5 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Configuracion->index()
+ 6 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configuracion))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-21 08:56:25 --> Trying to access array offset on value of type null
+in APPPATH\Views\configuracion\configuracion.php on line 47.
+ 1 APPPATH\Views\configuracion\configuracion.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\wamp64\\www\\pos\\app\\Views\\configuracion\\configuracion.php', 47)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\wamp64\\www\\pos\\app\\Views\\configuracion\\configuracion.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('configuracion/configuracion', [], true)
+ 5 APPPATH\Controllers\Configuracion.php(45): view('configuracion/configuracion', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Configuracion->index()
+ 7 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configuracion))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-21 08:57:12 --> Trying to access array offset on value of type null
+in APPPATH\Views\configuracion\configuracion.php on line 47.
+ 1 APPPATH\Views\configuracion\configuracion.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\wamp64\\www\\pos\\app\\Views\\configuracion\\configuracion.php', 47)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\wamp64\\www\\pos\\app\\Views\\configuracion\\configuracion.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('configuracion/configuracion', [], true)
+ 5 APPPATH\Controllers\Configuracion.php(45): view('configuracion/configuracion', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Configuracion->index()
+ 7 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configuracion))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

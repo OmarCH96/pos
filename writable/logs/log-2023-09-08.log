@@ -1,0 +1,137 @@
+CRITICAL - 2023-09-08 06:18:47 --> Invalid file: "productos/productos.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('productos/productos.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('productos/productos', [], true)
+ 3 APPPATH\Controllers\Productos.php(18): view('productos/productos', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Productos->index()
+ 5 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-08 06:19:38 --> Invalid file: "productos/productos.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('productos/productos.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('productos/productos', [], true)
+ 3 APPPATH\Controllers\Productos.php(18): view('productos/productos', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Productos->index()
+ 5 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-08 06:22:09 --> Invalid file: "productos/productos.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('productos/productos.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('productos/productos', [], true)
+ 3 APPPATH\Controllers\Productos.php(18): view('productos/productos', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Productos->index()
+ 5 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-08 08:04:40 --> Undefined array key "precio"
+in APPPATH\Views\productos\productos.php on line 32.
+ 1 APPPATH\Views\productos\productos.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "precio"', 'D:\\wamp64\\www\\pos\\app\\Views\\productos\\productos.php', 32)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\wamp64\\www\\pos\\app\\Views\\productos\\productos.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('productos/productos', [], true)
+ 5 APPPATH\Controllers\Productos.php(24): view('productos/productos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Productos->index()
+ 7 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-08 08:05:41 --> Undefined array key "precio"
+in APPPATH\Views\productos\productos.php on line 32.
+ 1 APPPATH\Views\productos\productos.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "precio"', 'D:\\wamp64\\www\\pos\\app\\Views\\productos\\productos.php', 32)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\wamp64\\www\\pos\\app\\Views\\productos\\productos.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('productos/productos', [], true)
+ 5 APPPATH\Controllers\Productos.php(24): view('productos/productos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Productos->index()
+ 7 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-08 08:06:12 --> Undefined array key "precio"
+in APPPATH\Views\productos\productos.php on line 32.
+ 1 APPPATH\Views\productos\productos.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "precio"', 'D:\\wamp64\\www\\pos\\app\\Views\\productos\\productos.php', 32)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\wamp64\\www\\pos\\app\\Views\\productos\\productos.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('productos/productos', [], true)
+ 5 APPPATH\Controllers\Productos.php(24): view('productos/productos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Productos->index()
+ 7 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-08 08:08:58 --> Undefined array key "nombre_corto"
+in APPPATH\Views\productos\editar.php on line 16.
+ 1 APPPATH\Views\productos\editar.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombre_corto"', 'D:\\wamp64\\www\\pos\\app\\Views\\productos\\editar.php', 16)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\wamp64\\www\\pos\\app\\Views\\productos\\editar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('productos/editar', [], true)
+ 5 APPPATH\Controllers\Productos.php(63): view('productos/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Productos->editar('1')
+ 7 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-08 08:09:10 --> Undefined array key "nombre_corto"
+in APPPATH\Views\productos\eliminados.php on line 27.
+ 1 APPPATH\Views\productos\eliminados.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombre_corto"', 'D:\\wamp64\\www\\pos\\app\\Views\\productos\\eliminados.php', 27)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\wamp64\\www\\pos\\app\\Views\\productos\\eliminados.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('productos/eliminados', [], true)
+ 5 APPPATH\Controllers\Productos.php(82): view('productos/eliminados', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Productos->eliminados()
+ 7 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-08 08:12:14 --> Undefined array key "nombre_corto"
+in APPPATH\Views\productos\eliminados.php on line 27.
+ 1 APPPATH\Views\productos\eliminados.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombre_corto"', 'D:\\wamp64\\www\\pos\\app\\Views\\productos\\eliminados.php', 27)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\wamp64\\www\\pos\\app\\Views\\productos\\eliminados.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('productos/eliminados', [], true)
+ 5 APPPATH\Controllers\Productos.php(82): view('productos/eliminados', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Productos->eliminados()
+ 7 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-08 08:26:40 --> Undefined variable $producto
+in APPPATH\Views\productos\editar.php on line 8.
+ 1 APPPATH\Views\productos\editar.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $producto', 'D:\\wamp64\\www\\pos\\app\\Views\\productos\\editar.php', 8)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\wamp64\\www\\pos\\app\\Views\\productos\\editar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('productos/editar', [], true)
+ 5 APPPATH\Controllers\Productos.php(66): view('productos/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Productos->editar('2')
+ 7 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-08 08:29:14 --> Undefined variable $producto
+in APPPATH\Views\productos\editar.php on line 8.
+ 1 APPPATH\Views\productos\editar.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $producto', 'D:\\wamp64\\www\\pos\\app\\Views\\productos\\editar.php', 8)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\wamp64\\www\\pos\\app\\Views\\productos\\editar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('productos/editar', [], true)
+ 5 APPPATH\Controllers\Productos.php(66): view('productos/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Productos->editar('2')
+ 7 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-08 08:29:19 --> Undefined variable $producto
+in APPPATH\Views\productos\editar.php on line 8.
+ 1 APPPATH\Views\productos\editar.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $producto', 'D:\\wamp64\\www\\pos\\app\\Views\\productos\\editar.php', 8)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\wamp64\\www\\pos\\app\\Views\\productos\\editar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('productos/editar', [], true)
+ 5 APPPATH\Controllers\Productos.php(66): view('productos/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Productos->editar('2')
+ 7 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-08 18:48:50 --> Undefined array key "nombre_corto"
+in APPPATH\Views\productos\eliminados.php on line 27.
+ 1 APPPATH\Views\productos\eliminados.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombre_corto"', 'D:\\wamp64\\www\\pos\\app\\Views\\productos\\eliminados.php', 27)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\wamp64\\www\\pos\\app\\Views\\productos\\eliminados.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('productos/eliminados', [], true)
+ 5 APPPATH\Controllers\Productos.php(85): view('productos/eliminados', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Productos->eliminados()
+ 7 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

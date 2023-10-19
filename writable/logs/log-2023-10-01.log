@@ -1,0 +1,137 @@
+CRITICAL - 2023-10-01 07:10:48 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 246.
+ 1 SYSTEMPATH\CodeIgniter.php(246): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(210): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(67): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-10-01 07:10:48 --> Uncaught Error: Class "Locale" not found in D:\xampp\htdocs\pos\system\Helpers\number_helper.php:136
+Stack trace:
+#0 D:\xampp\htdocs\pos\system\Helpers\number_helper.php(55): format_number(4.0, 2, NULL, Array)
+#1 D:\xampp\htdocs\pos\system\Debug\BaseExceptionHandler.php(145): number_to_size(4.0, 2)
+#2 D:\xampp\htdocs\pos\app\Views\errors\html\error_exception.php(360): CodeIgniter\Debug\BaseExceptionHandler::describeMemory(4194304)
+#3 D:\xampp\htdocs\pos\system\Debug\BaseExceptionHandler.php(241): include('D:\\xampp\\htdocs...')
+#4 D:\xampp\htdocs\pos\system\Debug\BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#5 D:\xampp\htdocs\pos\system\Debug\ExceptionHandler.php(109): CodeIgniter\Debug\BaseExceptionHandler->render(Object(CodeIgniter\Exceptions\FrameworkException), 500, 'D:\\xampp\\htdocs...')
+#6 D:\xampp\htdocs\pos\system\Debug\Exceptions.php(146): CodeIgniter\Debug\ExceptionHandler->handle(Object(CodeIgniter\Exceptions\FrameworkException), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#7 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\FrameworkException))
+#8 {main}
+  thrown
+【Previous Exception】
+CodeIgniter\Exceptions\FrameworkException
+The framework needs the following extension(s) installed and loaded: intl.
+#0 D:\xampp\htdocs\pos\system\CodeIgniter.php(246): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 D:\xampp\htdocs\pos\system\CodeIgniter.php(210): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 D:\xampp\htdocs\pos\public\index.php(67): CodeIgniter\CodeIgniter->initialize()
+#3 {main}
+in SYSTEMPATH\Helpers\number_helper.php on line 136.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-10-01 07:13:27 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 246.
+ 1 SYSTEMPATH\CodeIgniter.php(246): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(210): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(67): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-10-01 07:13:27 --> Uncaught Error: Class "Locale" not found in D:\xampp\htdocs\pos\system\Helpers\number_helper.php:136
+Stack trace:
+#0 D:\xampp\htdocs\pos\system\Helpers\number_helper.php(55): format_number(4.0, 2, NULL, Array)
+#1 D:\xampp\htdocs\pos\system\Debug\BaseExceptionHandler.php(145): number_to_size(4.0, 2)
+#2 D:\xampp\htdocs\pos\app\Views\errors\html\error_exception.php(360): CodeIgniter\Debug\BaseExceptionHandler::describeMemory(4194304)
+#3 D:\xampp\htdocs\pos\system\Debug\BaseExceptionHandler.php(241): include('D:\\xampp\\htdocs...')
+#4 D:\xampp\htdocs\pos\system\Debug\BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#5 D:\xampp\htdocs\pos\system\Debug\ExceptionHandler.php(109): CodeIgniter\Debug\BaseExceptionHandler->render(Object(CodeIgniter\Exceptions\FrameworkException), 500, 'D:\\xampp\\htdocs...')
+#6 D:\xampp\htdocs\pos\system\Debug\Exceptions.php(146): CodeIgniter\Debug\ExceptionHandler->handle(Object(CodeIgniter\Exceptions\FrameworkException), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#7 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\FrameworkException))
+#8 {main}
+  thrown
+【Previous Exception】
+CodeIgniter\Exceptions\FrameworkException
+The framework needs the following extension(s) installed and loaded: intl.
+#0 D:\xampp\htdocs\pos\system\CodeIgniter.php(246): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 D:\xampp\htdocs\pos\system\CodeIgniter.php(210): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 D:\xampp\htdocs\pos\public\index.php(67): CodeIgniter\CodeIgniter->initialize()
+#3 {main}
+in SYSTEMPATH\Helpers\number_helper.php on line 136.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+ERROR - 2023-10-01 05:13:48 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'pos' in D:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 D:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'pos', 3306, '', 0)
+#1 D:\xampp\htdocs\pos\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\xampp\htdocs\pos\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\xampp\htdocs\pos\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\pos\system\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\pos\system\BaseModel.php(662): CodeIgniter\Model->doFirst()
+#6 D:\xampp\htdocs\pos\app\Controllers\Configuracion.php(31): CodeIgniter\BaseModel->first()
+#7 D:\xampp\htdocs\pos\system\CodeIgniter.php(915): App\Controllers\Configuracion->index()
+#8 D:\xampp\htdocs\pos\system\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configuracion))
+#9 D:\xampp\htdocs\pos\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\pos\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'pos' in D:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 D:\xampp\htdocs\pos\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\xampp\htdocs\pos\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\xampp\htdocs\pos\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\xampp\htdocs\pos\system\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\xampp\htdocs\pos\system\BaseModel.php(662): CodeIgniter\Model->doFirst()
+#5 D:\xampp\htdocs\pos\app\Controllers\Configuracion.php(31): CodeIgniter\BaseModel->first()
+#6 D:\xampp\htdocs\pos\system\CodeIgniter.php(915): App\Controllers\Configuracion->index()
+#7 D:\xampp\htdocs\pos\system\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configuracion))
+#8 D:\xampp\htdocs\pos\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\pos\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-10-01 05:13:48 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'pos'
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `configuracion`
+WHERE `nombre` = :nombre:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(662): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\Configuracion.php(31): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Configuracion->index()
+ 7 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configuracion))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-01 05:13:54 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'pos' in D:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 D:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'pos', 3306, '', 0)
+#1 D:\xampp\htdocs\pos\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\xampp\htdocs\pos\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\xampp\htdocs\pos\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\pos\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\pos\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\xampp\htdocs\pos\app\Controllers\Productos.php(38): CodeIgniter\BaseModel->findAll()
+#7 D:\xampp\htdocs\pos\system\CodeIgniter.php(915): App\Controllers\Productos->index()
+#8 D:\xampp\htdocs\pos\system\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#9 D:\xampp\htdocs\pos\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\pos\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'pos' in D:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 D:\xampp\htdocs\pos\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\xampp\htdocs\pos\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\xampp\htdocs\pos\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\xampp\htdocs\pos\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\xampp\htdocs\pos\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#5 D:\xampp\htdocs\pos\app\Controllers\Productos.php(38): CodeIgniter\BaseModel->findAll()
+#6 D:\xampp\htdocs\pos\system\CodeIgniter.php(915): App\Controllers\Productos->index()
+#7 D:\xampp\htdocs\pos\system\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#8 D:\xampp\htdocs\pos\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\pos\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-10-01 05:13:54 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'pos'
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `productos`
+WHERE `activo` = :activo:', [...], false)
+ 3 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Productos.php(38): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Productos->index()
+ 7 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

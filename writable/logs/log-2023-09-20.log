@@ -1,0 +1,44 @@
+CRITICAL - 2023-09-20 06:46:08 --> Undefined variable $clientes
+in APPPATH\Views\clientes\editar.php on line 8.
+ 1 APPPATH\Views\clientes\editar.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $clientes', 'D:\\wamp64\\www\\pos\\app\\Views\\clientes\\editar.php', 8)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\wamp64\\www\\pos\\app\\Views\\clientes\\editar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('clientes/editar', [], true)
+ 5 APPPATH\Controllers\Clientes.php(84): view('clientes/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Clientes->editar('1')
+ 7 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-20 06:52:34 --> Undefined variable $clientes
+in APPPATH\Views\clientes\editar.php on line 8.
+ 1 APPPATH\Views\clientes\editar.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $clientes', 'D:\\wamp64\\www\\pos\\app\\Views\\clientes\\editar.php', 8)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\wamp64\\www\\pos\\app\\Views\\clientes\\editar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('clientes/editar', [], true)
+ 5 APPPATH\Controllers\Clientes.php(84): view('clientes/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Clientes->editar('4')
+ 7 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-20 07:01:30 --> Undefined variable $clientes
+in APPPATH\Views\clientes\editar.php on line 13.
+ 1 APPPATH\Views\clientes\editar.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $clientes', 'D:\\wamp64\\www\\pos\\app\\Views\\clientes\\editar.php', 13)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\wamp64\\www\\pos\\app\\Views\\clientes\\editar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('clientes/editar', [], true)
+ 5 APPPATH\Controllers\Clientes.php(84): view('clientes/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Clientes->editar('1')
+ 7 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-20 07:04:29 --> Undefined variable $clientes
+in APPPATH\Views\clientes\editar.php on line 8.
+ 1 APPPATH\Views\clientes\editar.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $clientes', 'D:\\wamp64\\www\\pos\\app\\Views\\clientes\\editar.php', 8)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\wamp64\\www\\pos\\app\\Views\\clientes\\editar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('clientes/editar', [], true)
+ 5 APPPATH\Controllers\Clientes.php(84): view('clientes/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Clientes->editar('1')
+ 7 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
